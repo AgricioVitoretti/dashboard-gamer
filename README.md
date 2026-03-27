@@ -1,0 +1,1 @@
+Projeto para aprender React, typescript, vite e express
