@@ -1,5 +1,6 @@
  import { useEffect, useState } from "react";
- 
+ import GameCard from "./components/GameCard";
+
  function App() {
   const [games, setGames] = useState<any[]>([]);
 
@@ -16,11 +17,7 @@
       <h1>DashBoard Gamer</h1>
 
       {games.map((game)=>(
-        <div key={game.id}>
-          <h2>{game.name}</h2>
-          <p>Gênero: {game.genre}</p>
-          <p>Plataforma: {game.plataform}</p>
-        </div>
+        <GameCard key={game.id} game={game} />
       ))}
     </div>
   );
