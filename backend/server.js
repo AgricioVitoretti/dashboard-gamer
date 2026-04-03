@@ -12,9 +12,9 @@ app.get("/", (req, res) => {
 
 app.get("/api/games", (req,res) => {
     const games =[
-        { id: 1, name: "God of War", genre: "Ação", plataform: "Playstation" },
-        { id: 2, name: "Elden ring", genre: "RPG", plataform: "PC" },
-        { id: 3, name: "Forza horizon 5", genre: "Corrida", plataform: "Xbox" },
+        { id: 1, name: "God of War", genre: "Ação", platform: "Playstation" },
+        { id: 2, name: "Elden ring", genre: "RPG", platform: "PC" },
+        { id: 3, name: "Forza horizon 5", genre: "Corrida", platform: "Xbox" },
     ];
 
     res.json(games);
