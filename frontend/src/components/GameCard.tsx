@@ -1,11 +1,5 @@
 import "./GameCard.css";
-
-type Game ={
-    id: number;
-    name: string;
-    genre: string;
-    platform: string;
-};
+import type { Game } from "../types/Game";
 
 type Props ={
     game: Game;

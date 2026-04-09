@@ -4,3 +4,8 @@ Rodar Backend
 
 cd backend
 npm run dev
+
+Rodar Frontend
+
+cd frontend
+npm run dev
